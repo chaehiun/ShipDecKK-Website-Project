@@ -1,0 +1,217 @@
+/* Responsive Styles */
+
+/* Large Devices (Desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .section-header h2,
+  .cta-content h2,
+  .about-content h2,
+  .service-content h2,
+  .team-content h2 {
+    font-size: 2.2rem;
+  }
+
+  .testimonial-card {
+    max-width: 300px;
+  }
+}
+
+/* Medium Devices (Tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+  }
+
+  .section {
+    padding: 60px 0;
+  }
+
+  .categories-grid,
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .categories-grid > *:last-child {
+    grid-column: span 2;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .gallery-grid,
+  .services-grid,
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta-grid,
+  .service-grid,
+  .about-grid,
+  .team-grid,
+  .subscribe-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .service-grid.reverse {
+    direction: ltr;
+  }
+
+  .testimonial-card {
+    position: static;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+/* Small Devices (Landscape Phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .header-content {
+    height: 70px;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .mobile-menu.active {
+    display: block;
+  }
+
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-header h2,
+  .cta-content h2,
+  .about-content h2,
+  .service-content h2,
+  .team-content h2 {
+    font-size: 2rem;
+  }
+
+  .categories-grid,
+  .features-grid,
+  .gallery-grid,
+  .services-grid,
+  .mission-grid,
+  .values-grid,
+  .achievements-grid,
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .categories-grid > *:last-child {
+    grid-column: span 1;
+  }
+
+  .filters-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  .filter-buttons {
+    justify-content: space-between;
+  }
+
+  .search-container {
+    max-width: 100%;
+  }
+
+  .team-members {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+/* Extra Small Devices (Portrait Phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .section-header {
+    margin-bottom: 30px;
+  }
+
+  .section-header h2,
+  .cta-content h2,
+  .about-content h2,
+  .service-content h2,
+  .team-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}

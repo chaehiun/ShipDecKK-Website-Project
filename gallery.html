@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - ShipDecKK</title>
+    <meta name="description" content="Explore our extensive collection of premium ships, from luxury yachts to commercial cargo vessels.">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fa-solid fa-anchor"></i>
+                    <span>ShipDecKK</span>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="gallery.html" class="active">Gallery</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="subscribe.html">Subscribe</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <div class="mobile-menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="gallery.html" class="active">Gallery</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="subscribe.html">Subscribe</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Fleet Gallery</h1>
+                <p>Explore our extensive collection of premium ships, from luxury yachts to commercial cargo vessels</p>
+            </div>
+        </section>
+
+        <section class="gallery-filters section">
+            <div class="container">
+                <div class="filters-container">
+                    <div class="filter-buttons">
+                        <button class="btn btn-filter">
+                            <i class="fa-solid fa-filter"></i> Filter
+                        </button>
+                        <div class="dropdown">
+                            <button class="btn btn-filter">
+                                Category <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-filter">
+                                Price Range <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="search-container">
+                        <input type="text" placeholder="Search ships..." class="search-input">
+                    </div>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Yacht 1 -->
+                    <div class="ship-card">
+                        <div class="ship-image">
+                            <img src="../images/yacht1.jpg" alt="Oceanic Voyager">
+                            <div class="ship-category">Luxury Yacht</div>
+                        </div>
+                        <div class="ship-details">
+                            <div class="ship-header">
+                                <h3>Oceanic Voyager</h3>
+                                <div class="ship-price">$4,500,000</div>
+                            </div>
+                            <p class="ship-description">
+                                A stunning 120-foot luxury yacht with 5 cabins, state-of-the-art navigation systems, and elegant
+                                interiors designed for the ultimate seafaring experience.
+                            </p>
+                            <div class="ship-specs">
+                                <span>120 ft</span>
+                                <span>5 Cabins</span>
+                                <span>Twin Engines</span>
+                                <span>2023</span>
+                            </div>
+                            <a href="#" class="btn btn-primary btn-full">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Yacht 2 -->
+                    <div class="ship-card">
+                        <div class="ship-image">
+                            <img src="../images/yacht2.jpg" alt="Azure Horizon">
+                            <div class="ship-category">Luxury Yacht</div>
+                        </div>
+                        <div class="ship-details">
+                            <div class="ship-header">
+                                <h3>Azure Horizon</h3>
+                                <div class="ship-price">$3,200,000</div>
+                            </div>
+                            <p class="ship-description">
+                                An elegant 95-foot yacht featuring panoramic views, spacious sun deck, and luxurious accommodations
+                                for up to 10 guests.
+                            </p>
+                            <div class="ship-specs">
+                                <span>95 ft</span>
+                                <span>4 Cabins</span>
+                                <span>Jacuzzi</span>
+                                <span>2022</span>
+                            </div>
+                            <a href="#" class="btn btn-primary btn-full">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Cargo Ship -->
+                    <div class="ship-card">
+                        <div class="ship-image">
+                            <img src="../images/cargo1.jpg" alt="Global Freighter">
+                            <div class="ship-category cargo">Cargo Ship</div>
+                        </div>
+                        <div class="ship-details">
+                            <div class="ship-header">
+                                <h3>Global Freighter</h3>
+                                <div class="ship-price">$12,800,000</div>
+                            </div>
+                            <p class="ship-description">
+                                A reliable 180-meter cargo vessel with 25,000 DWT capacity, designed for efficient global shipping
+                                operations with advanced navigation systems.
+                            </p>
+                            <div class="ship-specs">
+                                <span>180 m</span>
+                                <span>25,000 DWT</span>
+                                <span>Fuel Efficient</span>
+                                <span>2021</span>
+                            </div>
+                            <a href="#" class="btn btn-primary btn-full">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Luxury Liner -->
+                    <div class="ship-card">
+                        <div class="ship-image">
+                            <img src="../images/liner1.jpg" alt="Majestic Seas">
+                            <div class="ship-category liner">Luxury Liner</div>
+                        </div>
+                        <div class="ship-details">
+                            <div class="ship-header">
+                                <h3>Majestic Seas</h3>
+                                <div class="ship-price">$85,000,000</div>
+                            </div>
+                            <p class="ship-description">
+                                A magnificent 220-meter luxury liner featuring multiple restaurants, entertainment venues, and
+                                accommodations for up to 800 passengers.
+                            </p>
+                            <div class="ship-specs">
+                                <span>220 m</span>
+                                <span>400 Cabins</span>
+                                <span>Pools</span>
+                                <span>2023</span>
+                            </div>
+                            <a href="#" class="btn btn-primary btn-full">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Yacht 3 -->
+                    <div class="ship-card">
+                        <div class="ship-image">
+                            <img src="../images/yacht3.jpg" alt="Coastal Explorer">
+                            <div class="ship-category">Luxury Yacht</div>
+                        </div>
+                        <div class="ship-details">
+                            <div class="ship-header">
+                                <h3>Coastal Explorer</h3>
+                                <div class="ship-price">$1,800,000</div>
+                            </div>
+                            <p class="ship-description">
+                                A versatile 75-foot yacht perfect for coastal cruising, featuring modern amenities and comfortable
+                                accommodations for 8 guests.
+                            </p>
+                            <div class="ship-specs">
+                                <span>75 ft</span>
+                                <span>3 Cabins</span>
+                                <span>Flybridge</span>
+                                <span>2022</span>
+                            </div>
+                            <a href="#" class="btn btn-primary btn-full">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Cargo Ship 2 -->
+                    <div class="ship-card">
+                        <div class="ship-image">
+                            <img src="../images/cargo2.jpg" alt="Pacific Trader">
+                            <div class="ship-category cargo">Cargo Ship</div>
+                        </div>
+                        <div class="ship-details">
+                            <div class="ship-header">
+                                <h3>Pacific Trader</h3>
+                                <div class="ship-price">$9,500,000</div>
+                            </div>
+                            <p class="ship-description">
+                                A medium-sized 150-meter cargo vessel with 18,000 DWT capacity, ideal for regional shipping routes
+                                with eco-friendly propulsion systems.
+                            </p>
+                            <div class="ship-specs">
+                                <span>150 m</span>
+                                <span>18,000 DWT</span>
+                                <span>Eco-Friendly</span>
+                                <span>2020</span>
+                            </div>
+                            <a href="#" class="btn btn-primary btn-full">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <button class="pagination-btn prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="pagination-btn active">1</button>
+                    <button class="pagination-btn">2</button>
+                    <button class="pagination-btn">3</button>
+                    <button class="pagination-btn next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="logo">
+                        <i class="fa-solid fa-anchor"></i>
+                        <span>ShipDecKK</span>
+                    </div>
+                    <p>Leading ship dealership specializing in high-end yachts, cargo ships, and luxury liners since 2020.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="subscribe.html">Subscribe</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fa-solid fa-envelope"></i> info@shipdeck.com</li>
+                        <li><i class="fa-solid fa-location-dot"></i> 123 Harbor Drive, Marina Bay, CA 94123</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email address" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 ShipDecKK. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    <script src="../js/subscription-validation.js"></script>
+</body>
+</html>
